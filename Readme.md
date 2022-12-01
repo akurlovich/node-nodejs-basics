@@ -1,5 +1,9 @@
 # Node.js basics Node.js2022Q4 
 
+## Attention!!!
+
+`Use 18 LTS version of Node.js`
+
 ### 1. Сlone repository:
 
 `git clone https://github.com/akurlovich/node-nodejs-basics.git
