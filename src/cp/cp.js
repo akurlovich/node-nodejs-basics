@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const spawnChildProcess = async (args) => {
   if (args === undefined) {
     args = '--writeSomethingToConsole';
-  }
+  };
 
   const childProcess = spawn('node', [`${__dirname}/files/script.js`, ...args.split(' ')]);
 
