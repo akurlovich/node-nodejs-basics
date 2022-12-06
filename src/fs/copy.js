@@ -16,7 +16,7 @@ const copy = async () => {
         throw new Error('FS operation failed');
 
       }
-    })
+    });
 
     fs.cpSync(__dirname + '/files', __dirname + '/files_copy', {recursive: true});
   
